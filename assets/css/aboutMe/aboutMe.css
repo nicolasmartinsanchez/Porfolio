@@ -1,0 +1,8 @@
+.aboutMe {
+    background-color: var(--background-color-html);
+    display: flex;
+    flex-direction: var(--flex-direction-aboutMe);
+    gap: var(--gap-aboutMe);
+    justify-content: space-between;
+    padding: var(--padding-section);
+}

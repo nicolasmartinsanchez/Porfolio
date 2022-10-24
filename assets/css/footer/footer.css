@@ -1,0 +1,6 @@
+.footer {
+    background-color: var(--background-color-html);
+    display: flex;
+    justify-content: space-between;
+    padding: var(--padding-section);
+}

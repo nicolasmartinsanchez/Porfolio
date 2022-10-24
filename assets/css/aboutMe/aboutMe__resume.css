@@ -1,0 +1,7 @@
+.aboutMe__resume {
+    color: var(--color-aboutMe);
+    font-family: var(--font-family-html);
+    font-size: var(--font-size-aboutMe-resume);
+    text-align: var(--text-align-aboutMe);
+}
+    

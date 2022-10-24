@@ -1,0 +1,6 @@
+.aboutMe__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: var(--width-aboutMe-description);
+}

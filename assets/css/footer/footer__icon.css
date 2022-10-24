@@ -1,0 +1,5 @@
+.footer__icon {
+    align-self: flex-end;
+    color: var(--color-footer);
+    font-size: var(--font-size-footer-icon);
+}

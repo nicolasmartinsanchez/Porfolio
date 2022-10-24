@@ -1,0 +1,10 @@
+.skills__icons {
+    display: grid;
+    gap: var(--gap-skills-icons);
+    grid-auto-flow: dense;
+    grid-auto-rows: var(--grid-rows-height-skills-icons);
+    grid-template-columns: repeat(auto-fill, var(--grid-columns-width-skills-icons));
+    justify-content: center;
+    margin: var(--margin-skills-icons);
+    place-content: center;
+}

@@ -1,0 +1,5 @@
+.project__card {
+    display: flex;
+    flex-direction: column;
+    height: var(--height-project-card);
+}

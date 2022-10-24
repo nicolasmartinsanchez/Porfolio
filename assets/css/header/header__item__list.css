@@ -1,0 +1,8 @@
+.header__item__list {
+    align-self: center;
+    color: var(--color-header);
+    display: var(--display-header-item-list);
+    font-family: var(--font-family-html);
+    font-size: var(--font-size-header-item-list);
+    font-weight: var(--font-weight-header-list);
+}

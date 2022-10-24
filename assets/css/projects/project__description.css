@@ -1,0 +1,6 @@
+.project__description {
+    color: var(--color-project);
+    font-family: var(--font-family-html);
+    font-size: var(--font-size-project-description);
+    font-weight: var(--font-weight-project-description);
+}

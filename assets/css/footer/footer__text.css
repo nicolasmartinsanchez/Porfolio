@@ -1,0 +1,6 @@
+.footer__text {
+    align-self: center;
+    color: var(--color-footer);
+    font-family: var(--font-family-html);
+    font-size: var(--font-size-footer-text);
+}

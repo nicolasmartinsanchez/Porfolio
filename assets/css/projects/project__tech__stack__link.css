@@ -1,0 +1,10 @@
+.project__tech__stack__link {
+    color: #cccccc;
+    font-family: var(--font-family-html);
+    font-size: var(--font-size-tech-stack-link);
+}
+
+a {
+    color: #cccccc;
+    font-family: var(--font-family-html); 
+}

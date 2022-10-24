@@ -1,0 +1,6 @@
+.project__title {
+    color: var(--color-project);
+    font-family: var(--font-family-html);
+    font-size: var(--font-size-project-title);
+    font-weight: var(--font-weight-project-title);
+}

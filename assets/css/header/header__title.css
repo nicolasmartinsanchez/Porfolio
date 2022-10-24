@@ -1,0 +1,6 @@
+.header__title {
+    color: var(--color-header);
+    font-family: var(--font-family-html);
+    font-size: var(--font-size-titles);
+    text-align: var(--text-align-header-title);
+}

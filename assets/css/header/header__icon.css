@@ -1,0 +1,5 @@
+.header__icon {
+    align-self: center;
+    color: var(--color-header);
+    font-size: var(--font-size-header-icon);
+}

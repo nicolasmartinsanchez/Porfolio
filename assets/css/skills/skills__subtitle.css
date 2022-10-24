@@ -1,0 +1,7 @@
+.skills__subtitle {
+    color: var(--color-subtitles);
+    font-family: var(--font-family-html);
+    font-size: var(--font-size-subtitles);
+    padding: var(--padding-subtitles);
+    text-align: center;
+}

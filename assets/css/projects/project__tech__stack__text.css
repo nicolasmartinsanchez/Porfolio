@@ -1,0 +1,11 @@
+.project__tech__stack__text {
+    color: #cccccc;
+    font-family: var(--font-family-html);
+    font-size: var(--font-size-project-tech-stack);
+    font-weight: var(--font-weight-project-tech-stack-text);
+    grid-column: var(--grid-column-project-tech-stack-text);
+}
+
+
+
+

@@ -1,0 +1,18 @@
+.program__civil {
+    background: url(/assets/imgs/javeriana.png) no-repeat center / contain;
+}
+
+.program__finance {
+    background: url(/assets/imgs/mitx.png) no-repeat center / contain;
+}
+
+.program__beginner__alura {
+    background: url(/assets/imgs/alura.jpg) no-repeat center / contain;
+}
+
+.program__img {
+    aspect-ratio: var(--aspect-ratio-program-img);
+    inline-size: var(--inline-size-program-img);
+    min-height: var(--min-height-program-img);
+    max-height: var(--max-height-program-img);
+}

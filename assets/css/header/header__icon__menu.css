@@ -1,0 +1,9 @@
+.header__icon__menu {
+    align-self: center;
+    color: var(--color-header-icon-menu);
+    display: var(--display-header-icon-menu);
+    font-size: var(--font-size-header-icon);
+    text-align: var(--text-align-header-icon-menu);
+    width: var(--width-header-icon-menu);
+    
+}

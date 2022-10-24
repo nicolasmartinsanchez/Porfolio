@@ -1,0 +1,8 @@
+.education__program {
+    background-color: var(--background-color-program);
+    border-radius: var(--border-radius-program);
+    display: flex;
+    flex-direction: column;
+    height: var(--height-education-program);
+    padding: var(--padding-program);
+}

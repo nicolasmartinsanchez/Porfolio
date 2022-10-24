@@ -1,0 +1,7 @@
+.footer__icons {
+    align-items: center;
+    display: flex;
+    height: var(--height-footer-icons);
+    justify-content: space-between;
+    width: var(--width-footer-icons);
+}

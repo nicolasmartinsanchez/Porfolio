@@ -1,0 +1,9 @@
+.education__programs {
+    display: grid;
+    gap: var(--gap-education-grid);
+    grid-auto-flow: dense;
+    grid-auto-rows: var(--grid-rows-height-education-grid);
+    grid-template-columns: repeat(auto-fill, minmax(var(--grid-columns-width-education-grid)));
+    justify-content: center;
+    margin: var(--margin-education-grid);
+}

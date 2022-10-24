@@ -1,0 +1,19 @@
+.project__hangMan {
+    background: url(/assets/imgs/hangManGame.PNG) no-repeat center / cover;
+}
+
+.project__encrytor {
+    background: url(/assets/imgs/encripter.PNG) no-repeat center / cover;
+}
+
+.project__universe {
+    background: url(/assets/imgs/GALAXY.png) no-repeat center / cover;
+}
+
+.project__img {
+    aspect-ratio: var(--aspect-ratio-project-img);
+    border-radius: var(--border-radius-project-img);
+    inline-size: var(--inline-size-project-img);
+    object-fit: cover;
+}
+

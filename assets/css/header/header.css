@@ -1,0 +1,8 @@
+.header {
+    background-color: var(--background-color-html);
+    display: flex;
+    flex-direction: var(--flex-direction-header);
+    gap: var(--gap-header-columns);
+    justify-content: space-between;
+    padding: var(--padding-section);
+}

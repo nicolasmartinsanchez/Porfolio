@@ -1,0 +1,8 @@
+.education__title {
+    color: var(--color-titles);
+    font-family: var(--font-family-html);
+    font-size: var(--font-size-titles);
+    font-weight: var(--font-weight-titles);
+    padding: var(--padding-titles);
+    text-align: center;
+}

@@ -1,0 +1,6 @@
+.program__information {
+    color: var(--color-program);
+    font-family: var(--font-family-html);
+    font-size: var(--font-size-program-information);
+    font-weight: var(--font-weight-program-information);
+}

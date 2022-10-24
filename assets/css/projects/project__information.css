@@ -1,0 +1,10 @@
+.project__information {
+    background-color: var(--background-color-project-information);
+    border-radius: var(--border-radius-project-information);
+    display: grid;
+    row-gap: var(--gap-project-information);
+    grid-template-columns: var(--grid-template-columns-project-information);
+    grid-template-rows: var(--grid-template-rows-project-information);
+    height: var(--height-project-information);
+    padding: var(--padding-project-information);
+}
