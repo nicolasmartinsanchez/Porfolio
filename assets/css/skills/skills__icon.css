@@ -1,27 +1,27 @@
 .skills__icon:nth-child(1) {
-    background: url(/assets/icons/html.svg) no-repeat center / cover;
+    background: url(../../icons/html.svg) no-repeat center / cover;
 }
 
 .skills__icon:nth-child(2) {
-    background: url(/assets/icons/css.svg) no-repeat center / cover;
+    background: url(../../icons/css.svg) no-repeat center / cover;
 }
 
 .skills__icon:nth-child(3) {
-    background: url(/assets/icons/javascript.svg) no-repeat center / cover;
+    background: url(../../icons/javascript.svg) no-repeat center / cover;
 }
 
 .skills__icon:nth-child(4) {
-    background: url(/assets/icons/git.svg) no-repeat center / cover;
+    background: url(../../icons/git.svg) no-repeat center / cover;
 }
 
 .skills__icon:nth-child(5) {
-    background: url(/assets/icons/github.svg) no-repeat center / cover;
+    background: url(../../icons/github.svg) no-repeat center / cover;
 }
 
 .skills__icon:nth-child(6) {
-    background: url(/assets/icons/mysql.svg) no-repeat center / cover;
+    background: url(../../icons/mysql.svg) no-repeat center / cover;
 }
 
 .skills__icon:nth-child(7) {
-    background: url(/assets/icons/postgresql.svg) no-repeat center / cover;
+    background: url(../../icons/postgresql.svg) no-repeat center / cover;
 }

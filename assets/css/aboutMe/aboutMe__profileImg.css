@@ -1,6 +1,6 @@
 .aboutMe__profileImg {
     align-self: var(--align-self-aboutMe);
-    background: url(/assets/imgs/2.jpg) no-repeat center / cover;
+    background: url(../../imgs/2.jpg) no-repeat center / cover;
     border-radius: var(--borde-radius-profileImg);
     justify-self: center;
     height: var(--height-profileImg);
