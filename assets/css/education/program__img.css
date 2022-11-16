@@ -1,5 +1,5 @@
 .program__civil {
-    background: url(../../imgs/javeriana.png) no-repeat center / contain;
+    background: url(../../imgs/javeriana.png) no-repeat center / cover;
 }
 
 .program__finance {
@@ -7,7 +7,7 @@
 }
 
 .program__alura {
-    background: url(../../imgs/alura.jpg) no-repeat center / contain;
+    background: url(../../imgs/alura.png) no-repeat center / contain;
 }
 
 .program__freecodecamp {
@@ -16,6 +16,7 @@
 
 .program__img {
     aspect-ratio: var(--aspect-ratio-program-img);
+    border-radius: var(--border-radius-program-img);
     inline-size: var(--inline-size-program-img);
     min-height: var(--min-height-program-img);
     max-height: var(--max-height-program-img);

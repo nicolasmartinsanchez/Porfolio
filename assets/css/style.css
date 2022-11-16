@@ -97,6 +97,7 @@
     --aspect-ratio-program-img: 1 / 1;
     --background-color-program: #363636;
     --border-radius-program: 1.25rem;
+    --border-radius-program-img: 1.25rem 1.25rem 0rem 0rem;
     --color-program: #CCCCCC;
     --font-size-program-information: 0.9rem;
     --font-size-program-name: 1.2rem;
@@ -104,8 +105,8 @@
     --font-weight-program-name: 500;
     --height-education-program: calc(var(--grid-rows-height-education-grid) - var(--gap-education-grid));
     --inline-size-program-img: 100%;
-    --max-height-program-img: 55%;
-    --min-height-program-img: 55%;
+    --max-height-program-img: 57%;
+    --min-height-program-img: 57%;
     --padding-program: 1.4rem;
     --padding-program-name: 0rem 0rem 0.8rem 0rem;
 }
