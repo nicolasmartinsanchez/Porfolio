@@ -6,8 +6,12 @@
     background: url(../../imgs/mitx.png) no-repeat center / contain;
 }
 
-.program__beginner__alura {
+.program__alura {
     background: url(../../imgs/alura.jpg) no-repeat center / contain;
+}
+
+.program__freecodecamp {
+    background: url(../../imgs/freecodecamp.png) no-repeat center / contain;
 }
 
 .program__img {
