@@ -104,10 +104,10 @@
     --font-weight-program-name: 500;
     --height-education-program: calc(var(--grid-rows-height-education-grid) - var(--gap-education-grid));
     --inline-size-program-img: 100%;
-    --max-height-program-img: 65%;
-    --min-height-program-img: 65%;
-    --padding-program: 1.5rem;
-    --padding-program-name: 1rem 0rem 0.8rem 0rem;
+    --max-height-program-img: 55%;
+    --min-height-program-img: 55%;
+    --padding-program: 1.4rem;
+    --padding-program-name: 0rem 0rem 0.8rem 0rem;
 }
 
 /* variables for footer */
