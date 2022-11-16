@@ -147,7 +147,7 @@ body {
         --gap-header-columns: 1rem;
         --gap-header-icons: 2rem;
         --justify-content-header-icons: center;
-        --padding-header-icons-right: 1rem;
+        --padding-header-icons-right: 0rem;
         --text-align-header-title: center;
         --text-align-header-icon-menu: center;
         --width-header-icons: 100%;
@@ -196,6 +196,7 @@ body {
 
     /* variables for footer */
     :root {
+        --font-size-footer-icon: 2.3rem;
         --font-size-footer-text: 1.05rem;
         --width-footer-icons: 25%;
     }
@@ -259,6 +260,15 @@ body {
 }
 
 @media screen and (max-width: 900px){
+        /* general varaibles */
+    :root {
+        --font-size-subtitles: 1.3rem;
+        --font-size-titles: 2.5rem;
+        --padding-section: 2rem 6vw;
+        --padding-titles: 0rem 0rem 2rem 0rem;
+        --padding-subtitles: 0rem 0rem 1.5rem 0rem;
+    }
+    
     /* variables for header */
     :root {
         --gap-header-icons: 1rem;
@@ -287,7 +297,7 @@ body {
         --gap-header-columns: 1rem;
         --gap-header-icons: 2rem;
         --justify-content-header-icons: center;
-        --padding-header-icons-right: 1rem;
+        --padding-header-icons-right: 0rem;
         --text-align-header-title: center;
         --text-align-header-icon-menu: center;
         --width-header-icons: 100%;
@@ -331,7 +341,8 @@ body {
     /* variables for education grid */
     :root {
         --gap-education-grid: 2.5rem;
-        --grid-columns-width-education-grid: 240px, 240px;
+        --grid-columns-width-education-grid: 220px, 220px;
+        --padding-program: 1rem;
     }
 
     /* variables for footer */
