@@ -88,8 +88,8 @@
 :root {
     --gap-education-grid: 3rem;
     --grid-columns-width-education-grid: 250px, 250px;
-    --grid-rows-height-education-grid: 36vh;
-    --margin-education-grid: 2rem 14vw;
+    --grid-rows-height-education-grid: 31vh;
+    --margin-education-grid: 2rem 4vw;
 }
 
 /* variables for education__program */
@@ -103,7 +103,7 @@
     --font-size-program-name: 1.2rem;
     --font-weight-program-information: 300;
     --font-weight-program-name: 500;
-    --height-education-program: calc(var(--grid-rows-height-education-grid) - var(--gap-education-grid));
+    --height-education-program: var(--grid-rows-height-education-grid);
     --inline-size-program-img: 100%;
     --max-height-program-img: 57%;
     --min-height-program-img: 57%;
