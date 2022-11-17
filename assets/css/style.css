@@ -1,10 +1,17 @@
+body {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+/* general varaibles */
 :root {
     --background-color-html: #000000;
     --color-subtitles: #A7A7A7;
     --color-titles: #CCCCCC;
     --font-family-html: 'DM Sans', sans-serif;
-    --font-size-subtitles: 2rem;
-    --font-size-titles: 3rem;
+    --font-size-subtitles: 1.8rem;
+    --font-size-titles: 2.7rem;
     --font-weight-titles: 700;
     --padding-section: 2.5rem 6vw;
     --padding-titles: 0rem 0rem 3rem 0rem;
@@ -14,7 +21,6 @@
 /* variables for header */
 :root {
     --color-header: #A7A7A7;
-    --color-header-icon-menu: #000000;
     --display-header-icon-menu: none;
     --display-header-list: flex;
     --display-header-menu: flex;
@@ -69,10 +75,10 @@
     --color-project: #CCCCCC;
     --font-size-project-description: 1.025rem;
     --font-size-project-tech-stack: 15px;
-    --font-size-project-title: 1.70rem;
+    --font-size-project-title: 1.7rem;
     --font-size-tech-stack-link: 14px;
-    --font-weight-project-description: 300;
-    --font-weight-project-tech-stack-text: 400;
+    --font-weight-project-description: 400;
+    --font-weight-project-tech-stack-text: 300;
     --font-weight-project-tech-stack-title: 500;
     --font-weight-project-title: 500;
     --gap-project-information: 1rem;
@@ -104,7 +110,7 @@
     --border-radius-program-img: 1.25rem 1.25rem 0rem 0rem;
     --color-program: #CCCCCC;
     --font-size-program-information: 0.9rem;
-    --font-size-program-name: 1.2rem;
+    --font-size-program-name: 1.1rem;
     --font-weight-program-information: 300;
     --font-weight-program-name: 500;
     --height-education-program: var(--grid-rows-height-education-grid);
@@ -125,89 +131,9 @@
     --width-footer-icons: auto;
 }
 
-body {
-    background-color: #000000;
-    display: flex;
-    flex-direction: column;
-}
 
-@media screen and (max-width: 420px){
-    /* general varaibles */
-    :root {
-        --font-size-subtitles: 1.3rem;
-        --font-size-titles: 2.5rem;
-        --padding-section: 2rem 6vw;
-        --padding-titles: 0rem 0rem 2rem 0rem;
-        --padding-subtitles: 0rem 0rem 1.5rem 0rem;
-    }
-
-    /* variables for header */
-    :root {
-        --color-header-icon-menu: #A7A7A7;
-        --display-header-icon-menu: flex;
-        --display-header-item-list: none;
-        --display-header-list: none;
-        --flex-direction-header: column;
-        --font-size-header-icon: 2.2rem;
-        --gap-header-columns: 1rem;
-        --gap-header-icons: 2rem;
-        --justify-content-header-icons: center;
-        --padding-header-icons-right: 0rem;
-        --text-align-header-title: center;
-        --text-align-header-icon-menu: center;
-        --width-header-icons: 100%;
-        --width-header-icon-menu: 100%;
-        --width-header-list: 0%;
-        --width-header-menu: 100%;
-    }
-
-    /* variables for aboutMe */
-    :root {
-        --align-self-aboutMe: center;
-        --flex-direction-aboutMe: column-reverse;
-        --font-size-aboutMe-resume: 1.2rem;
-        --gap-aboutMe: 1.5rem;
-        --text-align-aboutMe: center;
-        --width-aboutMe-description: 88vw;
-    }
-
-    /* variables for skills */
-    :root {
-        --gap-skills-icons: 2rem;
-        --grid-columns-width-skills-icons: 85px;
-        --grid-rows-height-skills-icons: 85px;
-        --margin-skills-icons: 0.5rem 10vw; 
-    }
-
-    /* variables for project grid*/
-    :root {
-        --gap-project-grid: 2.5rem;
-        --grid-columns-width-project-grid: 290px, 23vW;
-        --margin-project-grid: 0.5rem 0vw;
-    }
-
-    /* variables for project__card */
-    :root {
-        --font-size-project-description: 1rem;
-        --font-size-project-tech-stack: 13px;
-        --font-size-project-title: 1.6rem;
-    }
-
-    /* variables for education grid */
-    :root {
-        --gap-education-grid: 2.5rem;
-        --grid-columns-width-education-grid: 240px, 240px;
-    }
-
-    /* variables for footer */
-    :root {
-        --font-size-footer-icon: 2.3rem;
-        --font-size-footer-text: 1.05rem;
-    }
-}
 
 @media screen and (max-width: 1650px){
-
     /* variables for skills */
     :root {
         --margin-skills-icons: 2rem 7vw; 
@@ -215,7 +141,6 @@ body {
 }
 
 @media screen and (max-width: 1450px){
-
     /* variables for skills */
     :root {
         --margin-skills-icons: 2rem 3vw; 
@@ -228,13 +153,10 @@ body {
 }
 
 @media screen and (max-width: 1400px){
-
     /* variables for header */
     :root {
         --color-header-icon-menu: #A7A7A7;
         --display-header-icon-menu: flex;
-/*         --display-header-item-list: none;
-        --display-header-list: none; */
         --flex-direction-header: row;
         --font-size-header-icon: 2.3rem;
         --gap-header-icons: 1.5rem;
@@ -249,7 +171,6 @@ body {
 }
 
 @media screen and (max-width: 1200px){
-
     /* variables for skills */
     :root {
         --gap-skills-icons: 2.5rem;
@@ -265,10 +186,10 @@ body {
 }
 
 @media screen and (max-width: 900px){
-        /* general varaibles */
+    /* general varaibles */
     :root {
         --font-size-subtitles: 1.3rem;
-        --font-size-titles: 2.5rem;
+        --font-size-titles: 2.4rem;
         --padding-section: 2rem 6vw;
         --padding-titles: 0rem 0rem 2rem 0rem;
         --padding-subtitles: 0rem 0rem 1.5rem 0rem;
@@ -279,24 +200,20 @@ body {
         --gap-header-icons: 1rem;
     }
 
+        /* variables for aboutMe */
+    :root {
+        --font-size-aboutMe-resume: 1.3rem;
+    }
 }
 
 @media screen and (max-width: 800px){
     /* general varaibles */
     :root {
-        --font-size-subtitles: 1.3rem;
         --font-size-titles: 2.5rem;
-        --padding-section: 2rem 6vw;
-        --padding-titles: 0rem 0rem 2rem 0rem;
-        --padding-subtitles: 0rem 0rem 1.5rem 0rem;
     }
 
     /* variables for header */
     :root {
-        --color-header-icon-menu: #A7A7A7;
-        --display-header-icon-menu: flex;
-        --display-header-item-list: none;
-        --display-header-list: none;
         --flex-direction-header: column;
         --font-size-header-icon: 2.2rem;
         --gap-header-columns: 1rem;
@@ -305,9 +222,7 @@ body {
         --padding-header-icons-right: 0rem;
         --text-align-header-title: center;
         --text-align-header-icon-menu: center;
-        --width-header-icons: 100%;
         --width-header-icon-menu: 100%;
-        --width-header-list: 0%;
         --width-header-menu: 100%;
         --width-header-title: 100%;
     }
@@ -347,7 +262,7 @@ body {
     /* variables for education grid */
     :root {
         --gap-education-grid: 2.5rem;
-        --grid-columns-width-education-grid: 220px, 220px;
+        --grid-columns-width-education-grid: 218px, 218px;
         --padding-program: 1rem;
     }
 
@@ -356,5 +271,35 @@ body {
         --font-size-footer-icon: 2rem;
         --font-size-footer-text: 1.05rem;
         --gap-footer-icons: 1rem;
+    }
+}
+
+@media screen and (max-width: 420px){
+    /* general varaibles */
+    :root {
+        --font-size-titles: 2.3rem;
+    }
+
+    /* variables for aboutMe */
+    :root {
+        --font-size-aboutMe-resume: 1rem;
+    }
+
+    /* variables for project__card */
+    :root {
+        --font-size-project-description: 0.9rem;
+        --font-size-project-title: 1.5rem;
+    }
+
+    /* variables for education__program */
+    :root {
+        --font-size-program-information: 0.85rem;
+        --font-size-program-name: 1rem;
+        --gap-education-grid: 2rem;
+    }
+
+    /* variables for footer */
+    :root {
+        --font-size-footer-icon: 2.1rem;
     }
 }
