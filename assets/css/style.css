@@ -21,13 +21,14 @@
     --font-size-header-icon: 1.8rem;
     --font-size-header-item-list: 1.2rem;
     --font-weight-header-list: 500;
+    --gap-header-icons: 0.65rem;
     --height-header-icons: 100%;
     --justify-content-header-icons: space-around;
     --text-align-header-title: left;
-    --width-header-icons: 13%;
+    --width-header-icons: auto;
     --width-header-icon-menu: 0%;
     --width-header-list: 85%;
-    --width-header-menu: 50%;
+    --width-header-menu: 52%;
     --width-header-title: calc(100% - var(--width-header-menu));
 }
 
@@ -117,9 +118,10 @@
 :root {
     --color-footer: #A7A7A7;
     --font-size-footer-icon: 2.5rem;
-    --font-size-footer-text: 1.2rem;
+    --font-size-footer-text: 1.3rem;
+    --gap-footer-icons: 1.5rem;
     --height-footer-icons: 100%;
-    --width-footer-icons: 13%;
+    --width-footer-icons: auto;
 }
 
 body {
@@ -200,7 +202,6 @@ body {
     :root {
         --font-size-footer-icon: 2.3rem;
         --font-size-footer-text: 1.05rem;
-        --width-footer-icons: 25%;
     }
 }
 
@@ -239,9 +240,10 @@ body {
         --text-align-header-title: left;
         --text-align-header-icon-menu: right;
         --width-header-icons: 100%;
-        --width-header-icon-menu: 10%;
+        --width-header-icon-menu: auto;
         --width-header-list: 0%;
-        --width-header-menu: 10%;
+        --width-header-menu: auto;
+        --width-header-title: auto;
     }
 }
 
@@ -350,7 +352,8 @@ body {
 
     /* variables for footer */
     :root {
+        --font-size-footer-icon: 2rem;
         --font-size-footer-text: 1.05rem;
-        --width-footer-icons: 25%;
+        --gap-footer-icons: 1rem;
     }
 }
