@@ -23,10 +23,12 @@
     --font-weight-header-list: 500;
     --height-header-icons: 100%;
     --justify-content-header-icons: space-around;
+    --text-align-header-title: left;
     --width-header-icons: 13%;
     --width-header-icon-menu: 0%;
     --width-header-list: 85%;
-    --width-header-menu: 45%;
+    --width-header-menu: 50%;
+    --width-header-title: calc(100% - var(--width-header-menu));
 }
 
 /* variables for aboutMe */
@@ -234,8 +236,8 @@ body {
         --flex-direction-header: row;
         --font-size-header-icon: 2.3rem;
         --gap-header-icons: 1.5rem;
-        --text-align-header-title: center;
-        --text-align-header-icon-menu: center;
+        --text-align-header-title: left;
+        --text-align-header-icon-menu: right;
         --width-header-icons: 100%;
         --width-header-icon-menu: 10%;
         --width-header-list: 0%;
@@ -304,6 +306,7 @@ body {
         --width-header-icon-menu: 100%;
         --width-header-list: 0%;
         --width-header-menu: 100%;
+        --width-header-title: 100%;
     }
 
     /* variables for aboutMe */

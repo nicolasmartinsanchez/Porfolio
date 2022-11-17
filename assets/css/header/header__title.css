@@ -3,4 +3,5 @@
     font-family: var(--font-family-html);
     font-size: var(--font-size-titles);
     text-align: var(--text-align-header-title);
+    width: var(--width-header-title);
 }
