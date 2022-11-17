@@ -6,3 +6,7 @@
     font-size: var(--font-size-header-item-list);
     font-weight: var(--font-weight-header-list);
 }
+
+.header__item__list a {
+    text-decoration: none;
+}

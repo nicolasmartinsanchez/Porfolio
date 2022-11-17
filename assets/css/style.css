@@ -18,17 +18,18 @@
     --display-header-icon-menu: none;
     --display-header-list: flex;
     --display-header-menu: flex;
-    --font-size-header-icon: 1.8rem;
+    --font-size-header-icon: 2rem;
     --font-size-header-item-list: 1.2rem;
     --font-weight-header-list: 500;
-    --gap-header-icons: 0.65rem;
+    --gap-header-icons: 0.8rem;
+    --gap-header-menu: 2.5rem;
     --height-header-icons: 100%;
     --justify-content-header-icons: space-around;
     --text-align-header-title: left;
     --width-header-icons: auto;
     --width-header-icon-menu: 0%;
-    --width-header-list: 85%;
-    --width-header-menu: 52%;
+    --width-header-list: 80%;
+    --width-header-menu: 50%;
     --width-header-title: calc(100% - var(--width-header-menu));
 }
 
@@ -232,8 +233,8 @@ body {
     :root {
         --color-header-icon-menu: #A7A7A7;
         --display-header-icon-menu: flex;
-        --display-header-item-list: none;
-        --display-header-list: none;
+/*         --display-header-item-list: none;
+        --display-header-list: none; */
         --flex-direction-header: row;
         --font-size-header-icon: 2.3rem;
         --gap-header-icons: 1.5rem;

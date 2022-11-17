@@ -1,0 +1,9 @@
+.header__change__lenguage {
+    align-items: center;
+    display: flex;
+    gap: var(--gap-header-icons);
+    height: var(--height-header-icons);
+    justify-content: var(--justify-content-header-icons);
+    padding-right: var(--padding-header-icons-right);
+    width: var(--width-header-icons);
+}

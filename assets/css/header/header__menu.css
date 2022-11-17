@@ -1,6 +1,6 @@
 .header__menu {
     display: var(--display-header-menu);
-    gap: 1rem;
+    gap: var(--gap-header-menu);
     justify-content: space-between;
     width: var(--width-header-menu);
 }

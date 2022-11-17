@@ -67,20 +67,22 @@
     <body>
         <header class="header">
             <h1 class="header__title">Nicolas Martin Sanchez</h1>
-            <i id="headerIconMenu" class='header__icon__menu bx bx-menu'></i>
             <nav class="header__menu">
                 <ul class="header__list">
                     <li class="header__item__list"><a href="#aboutMe">Sobre Mí</a></li>
                     <li class="header__item__list"><a href="#skills">Habildiades Técnicas</a></li>
                     <li class="header__item__list"><a href="#projects">Proyectos</a></li>
                     <li class="header__item__list"><a href="#education">Educación</a></li>
-                    <li class="header__item__list"><a href="#contact">Contacto</a></li>
+                    <li class="change_lenguage_english"><a href="./index.html">EN</a></li>
+                    <li class="change_lenguage_spanish"><a href="./index-es.html">ES</a></li>
+                    <a href="#" class="header__item__list__close"><i class='bx bx-x'></i></a>
                 </ul>
                 <div class="header__icons">
                     <a href="https://www.linkedin.com/in/nicolasmartinsanchez" target="_blank"><i class='header__icon  bx bxl-linkedin-square'></i></a> 
                     <a href="https://github.com/nicolasmartinsanchez" target="_blank"><i class='bx bxl-github header__icon'></i></a>
                 </div>  
             </nav>
+            <i id="headerIconMenu" class='header__icon__menu bx bx-menu'></i>
         </header>
         <section class="aboutMe"  id="aboutMe" data-aos="fade-down" data-aos-duration="700">
             <div class="aboutMe__description"> 
@@ -221,5 +223,6 @@
         <script>
             AOS.init();
         </script>
+        <script src="./assets/scripts/menu.js"></script>
     </body>
 </html>
