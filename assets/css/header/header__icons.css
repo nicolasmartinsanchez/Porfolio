@@ -4,6 +4,6 @@
     gap: var(--gap-header-icons);
     height: var(--height-header-icons);
     justify-content: var(--justify-content-header-icons);
-    padding-right: var(--padding-header-icons-right);
+    padding-right: var(--padding-right-header-icons);
     width: var(--width-header-icons);
 }

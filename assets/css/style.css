@@ -20,33 +20,59 @@ body {
 
 /* variables for header */
 :root {
+    /* header */
     --color-header: #A7A7A7;
-    --display-header-icon-menu: none;
-    --display-header-list: flex;
+
+    /* header title */
+    --text-align-header-title: left;
+    --width-header-title: calc(100% - var(--width-header-menu));
+
+    /* header menu */
     --display-header-menu: flex;
-    --font-size-header-icon: 2rem;
-    --font-size-header-item-list: 1.2rem;
-    --font-weight-header-list: 500;
-    --gap-header-icons: 0.8rem;
     --gap-header-menu: 2.5rem;
+    --width-header-menu: 50%;
+
+    /* header list */
+    --display-header-list: flex;
+    --font-weight-header-list: 500;
+    --justify-content-header-list: space-between;
+    --width-header-list: 80%;
+
+    /* header item list */
+    --font-size-header-item-list: 1.2rem;
+
+    /* header item list close */
+    --display-header-item-list-close: none;
+
+    /* header icons */
+    --gap-header-icons: 0.8rem;
     --height-header-icons: 100%;
     --justify-content-header-icons: space-around;
-    --text-align-header-title: left;
     --width-header-icons: auto;
+
+    /* header icon */
+    --font-size-header-icon: 2rem;
+
+    /* header icon menu */
+    --display-header-icon-menu: none;
     --width-header-icon-menu: 0%;
-    --width-header-list: 80%;
-    --width-header-menu: 50%;
-    --width-header-title: calc(100% - var(--width-header-menu));
 }
 
 /* variables for aboutMe */
 :root {
-    --borde-radius-profileImg: 50%;
+    /* aboutMe */
     --color-aboutMe: #D9D9D9;
-    --font-size-aboutMe-resume: 1.5rem;
     --gap-aboutMe: 5rem;
-    --height-profileImg: 25vh;
+
+    /* description */
     --width-aboutMe-description: 55vw;
+
+    /* resume */
+    --font-size-aboutMe-resume: 1.5rem;
+
+    /* profileImg */
+    --borde-radius-profileImg: 50%;
+    --height-profileImg: 25vh;
     --width-profileImg: 25vh;
 }
 
@@ -60,6 +86,8 @@ body {
 
 /* variables for project grid*/
 :root {
+    --color-project: #CCCCCC;
+
     --gap-project-grid: 3rem;
     --grid-columns-width-project-grid: 310px, 23vW;
     --grid-rows-height-project-grid: 55vh;
@@ -68,30 +96,46 @@ body {
 
 /* variables for project__card */
 :root {
+    /* project card */
+    --height-project-card: var(--grid-rows-height-project-grid);
+
+    /* project img */
     --aspect-ratio-project-img: 1 / 1;
-    --background-color-project-information: #363636;
     --border-radius-project-img: 1.25rem 1.25rem 0rem 0rem;
+    --inline-size-project-img: 100%;
+
+    /* project information */
+    --background-color-project-information: #363636;
     --border-radius-project-information: 0rem 0rem 1.25rem 1.25rem;
-    --color-project: #CCCCCC;
-    --font-size-project-description: 1.025rem;
-    --font-size-project-tech-stack: 15px;
-    --font-size-project-title: 1.7rem;
-    --font-size-tech-stack-link: 14px;
-    --font-weight-project-description: 400;
-    --font-weight-project-tech-stack-text: 300;
-    --font-weight-project-tech-stack-title: 500;
-    --font-weight-project-title: 500;
     --gap-project-information: 1rem;
-    --gap-project-tech-stack: 10px;
-    --grid-column-project-tech-stack-text: 1 / 3;
     --grid-template-columns-project-information: 1fr;
     --grid-template-rows-project-information: var(--font-size-project-title) calc(100% - var(--font-size-project-title) - 2 * var(--gap-project-information) - 50px);
+    --height-project-information: calc(60% - 2 * var(--gap-project-information));
+    --padding-project-information: 1.5rem;
+
+    /* project title */
+    --font-size-project-title: 1.7rem;
+    --font-weight-project-title: 500;
+    
+    /* project description */    
+    --font-size-project-description: 1.025rem;
+    --font-weight-project-description: 400;
+
+    /* project tech stack */
+    --font-size-project-tech-stack: 15px;
+    --gap-project-tech-stack: 10px;
     --grid-template-columns-project-tech-stack: 2, 1fr;
     --grid-template-rows-project-tech-stack: 2, 1fr;
-    --height-project-card: var(--grid-rows-height-project-grid);
-    --height-project-information: calc(60% - 2 * var(--gap-project-information));
-    --inline-size-project-img: 100%;
-    --padding-project-information: 1.5rem;
+    
+    /* project tech stack title */
+    --font-weight-project-tech-stack-title: 500;
+
+    /* project tech stack text */
+    --font-weight-project-tech-stack-text: 300;
+    --grid-column-project-tech-stack-text: 1 / 3;
+
+    /* project tech stack link */
+    --font-size-tech-stack-link: 14px;
 }
 
 /* variables for education grid */
@@ -104,20 +148,27 @@ body {
 
 /* variables for education__program */
 :root {
-    --aspect-ratio-program-img: 1 / 1;
+    /* education program */
     --background-color-program: #363636;
     --border-radius-program: 1.25rem;
-    --border-radius-program-img: 1.25rem 1.25rem 0rem 0rem;
     --color-program: #CCCCCC;
-    --font-size-program-information: 0.9rem;
-    --font-size-program-name: 1.1rem;
-    --font-weight-program-information: 300;
-    --font-weight-program-name: 500;
     --height-education-program: var(--grid-rows-height-education-grid);
+    --padding-program: 1.4rem;
+
+    /* program img */
+    --aspect-ratio-program-img: 1 / 1;
+    --border-radius-program-img: 1.25rem 1.25rem 0rem 0rem;
     --inline-size-program-img: 100%;
     --max-height-program-img: 57%;
     --min-height-program-img: 57%;
-    --padding-program: 1.4rem;
+
+    /* program information */
+    --font-size-program-information: 0.9rem;
+    --font-weight-program-information: 300;
+
+    /* program name */
+    --font-size-program-name: 1.1rem;
+    --font-weight-program-name: 500;
     --padding-program-name: 0rem 0rem 0.8rem 0rem;
 }
 
@@ -130,8 +181,6 @@ body {
     --height-footer-icons: 100%;
     --width-footer-icons: auto;
 }
-
-
 
 @media screen and (max-width: 1650px){
     /* variables for skills */
@@ -155,18 +204,58 @@ body {
 @media screen and (max-width: 1400px){
     /* variables for header */
     :root {
+        /*  header */
+        --flex-direction-header: row;
+
+        /* header title */
+        --text-align-header-title: left;
+        --width-header-title: auto;
+
+        /* header menu */
+        --width-header-menu: auto;
+
+        /* header list */
+        --background-color-header-list: #363636;
+        --box-shadow-header-list: 0 40px 60px rgba(0, 0, 0, 0.1);
+        --display-header-list: none;
+        --display-header-list-active: flex;
+        --flex-direction-header-list: column;
+        --gap-header-list: 2rem;
+        --height-header-list: 100vh;
+        --justify-content-header-list: flex-start;
+        --padding-header-list: 100px 2rem 0 2rem;
+        --position-header-list: fixed;
+        --right-header-list: 0;
+        --top-header-list: 0;
+        --transition-header-list: 1s;
+        --width-header-list: 200px;
+        --z-index-header-list: 999;
+
+       /*  header list item */
+       --left-header-item-list: 2rem;
+       --margin-header-item-list: 2rem;
+       --position-header-item-list: absolute;
+       --text-decoration-header-item-list: none;
+
+       /* header list item close */
+       --display-header-item-list-close: initial;
+       --font-size-header-item-list-close: 2rem;
+       --left-header-item-list-close: 1.5rem;
+       --position-header-item-list-close: absolute;
+       --top-header-item-list-close: 2rem;
+
+       /* header icons */
+       --gap-header-icons: 1.5rem;
+       --width-header-icons: 100%;
+
+       /* header icon */
+       --font-size-header-icon: 2.3rem;
+
+        /* header icon menu */
         --color-header-icon-menu: #A7A7A7;
         --display-header-icon-menu: flex;
-        --flex-direction-header: row;
-        --font-size-header-icon: 2.3rem;
-        --gap-header-icons: 1.5rem;
-        --text-align-header-title: left;
         --text-align-header-icon-menu: right;
-        --width-header-icons: 100%;
         --width-header-icon-menu: auto;
-        --width-header-list: 0%;
-        --width-header-menu: auto;
-        --width-header-title: auto;
     }
 }
 
@@ -214,17 +303,28 @@ body {
 
     /* variables for header */
     :root {
+        /* header */
         --flex-direction-header: column;
-        --font-size-header-icon: 2.2rem;
         --gap-header-columns: 1rem;
+
+        /* header title */
+        --text-align-header-title: center;
+        --width-header-title: 100%;
+
+        /* header menu */
+        --width-header-menu: 100%;
+
+        /* header icons */
         --gap-header-icons: 2rem;
         --justify-content-header-icons: center;
-        --padding-header-icons-right: 0rem;
-        --text-align-header-title: center;
+        --padding-right-header-icons: 0rem;
+
+        /* header icons */
+        --font-size-header-icon: 2.2rem;
+
+        /* header icon menu */
         --text-align-header-icon-menu: center;
         --width-header-icon-menu: 100%;
-        --width-header-menu: 100%;
-        --width-header-title: 100%;
     }
 
     /* variables for aboutMe */

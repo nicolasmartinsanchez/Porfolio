@@ -5,8 +5,19 @@
     font-family: var(--font-family-html);
     font-size: var(--font-size-header-item-list);
     font-weight: var(--font-weight-header-list);
+    margin-bottom: var(--margin-header-item-list);
 }
 
 .header__item__list a {
-    text-decoration: none;
+    left: var(--left-header-item-list);
+    position: var(--position-header-item-list);
+    text-decoration: var(--text-decoration-header-item-list);
+}
+
+.header__item__list__close {
+    display: var(--display-header-item-list-close);
+    font-size: var(--font-size-header-item-list-close);
+    left: var(--left-header-item-list-close);
+    position: var(--position-header-item-list-close);
+    top: var(--top-header-item-list-close);
 }
