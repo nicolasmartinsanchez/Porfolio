@@ -39,7 +39,9 @@ body {
     --width-header-list: 80%;
 
     /* header item list */
+    --color-header-item-list-hover-active: #7c37ac;
     --font-size-header-item-list: 1.2rem;
+    --transition-header-item-list: 0.3s ease;
 
     /* header item list close */
     --display-header-item-list-close: none;

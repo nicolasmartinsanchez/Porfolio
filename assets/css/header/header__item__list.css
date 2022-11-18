@@ -12,6 +12,12 @@
     left: var(--left-header-item-list);
     position: var(--position-header-item-list);
     text-decoration: var(--text-decoration-header-item-list);
+    transition: var(--transition-header-item-list);
+}
+
+.header__item__list a:hover,
+.header__item__list a.active {
+    color: var(--color-header-item-list-hover-active);
 }
 
 .header__item__list__close {
