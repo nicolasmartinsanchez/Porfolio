@@ -14,6 +14,10 @@
     background: url(../../imgs/freecodecamp.png) no-repeat center / contain;
 }
 
+.program__platzi {
+    background: url(../../imgs/platzi.png) no-repeat center / contain;
+}
+
 .program__img {
     aspect-ratio: var(--aspect-ratio-program-img);
     border-radius: var(--border-radius-program-img);
