@@ -67,7 +67,7 @@ body {
     --gap-aboutMe: 5rem;
 
     /* description */
-    --width-aboutMe-description: 55vw;
+    --width-aboutMe-description: 65vw;
 
     /* resume */
     --font-size-aboutMe-resume: 1.5rem;
@@ -293,7 +293,7 @@ body {
 
         /* variables for aboutMe */
     :root {
-        --font-size-aboutMe-resume: 1.3rem;
+        --font-size-aboutMe-resume: 1.2rem;
     }
 }
 
@@ -333,7 +333,7 @@ body {
     :root {
         --align-self-aboutMe: center;
         --flex-direction-aboutMe: column-reverse;
-        --font-size-aboutMe-resume: 1.2rem;
+        --font-size-aboutMe-resume: 1.1rem;
         --gap-aboutMe: 1.5rem;
         --text-align-aboutMe: center;
         --width-aboutMe-description: 88vw;
