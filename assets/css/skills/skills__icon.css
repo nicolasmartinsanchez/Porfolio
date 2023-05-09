@@ -1,27 +1,40 @@
 .skills__icon:nth-child(1) {
-    background: url(../../icons/html.svg) no-repeat center / cover;
+    background: url(../../icons/sqlserver.svg) no-repeat center / cover;
 }
 
 .skills__icon:nth-child(2) {
-    background: url(../../icons/css.svg) no-repeat center / cover;
-}
-
-.skills__icon:nth-child(3) {
-    background: url(../../icons/javascript.svg) no-repeat center / cover;
-}
-
-.skills__icon:nth-child(4) {
-    background: url(../../icons/git.svg) no-repeat center / cover;
-}
-
-.skills__icon:nth-child(5) {
-    background: url(../../icons/github.svg) no-repeat center / cover;
-}
-
-.skills__icon:nth-child(6) {
     background: url(../../icons/mysql.svg) no-repeat center / cover;
 }
 
-.skills__icon:nth-child(7) {
+.skills__icon:nth-child(3) {
     background: url(../../icons/postgresql.svg) no-repeat center / cover;
 }
+
+.skills__icon:nth-child(4) {
+    background: url(../../icons/python.svg) no-repeat center / cover;
+}
+
+.skills__icon:nth-child(5) {
+    background: url(../../icons/powerbi.svg) no-repeat center / cover;
+}
+
+.skills__icon:nth-child(6) {
+    background: url(../../icons/excel.svg) no-repeat center / cover;
+}
+
+.skills__icon:nth-child(7) {
+    background: url(../../icons/java.svg) no-repeat center / cover;
+}
+
+.skills__icon:nth-child(8) {
+    background: url(../../icons/html.svg) no-repeat center / cover;
+}
+
+.skills__icon:nth-child(9) {
+    background: url(../../icons/css.svg) no-repeat center / cover;
+}
+
+.skills__icon:nth-child(10) {
+    background: url(../../icons/javascript.svg) no-repeat center / cover;
+}
+
